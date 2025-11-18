@@ -1,0 +1,50 @@
+/*-- scss:functions --*/
+@function colorToRGB ($color) {
+  @return "rgb(" + red($color) + ", " + green($color) + ", " + blue($color)+ ")";
+}
+
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules --*/
+
+h1 {
+  background-color: #f0f0f088;
+  font-style: italic;
+}
+
+.reveal h1 + p.subtitle {
+  margin-top: 2em;   /* increase this number to enlarge spacing */
+
+  background-color: #f0f0f0aa;
+
+  padding-top: 0.2em;    /* Abstand oben */
+  padding-bottom: 0.2em; /* Abstand unten */
+}
+
+.reveal h1 + p.subtitle {
+  margin-top: 2em;   /* increase this number to enlarge spacing */
+
+  background-color: #f0f0f0aa;
+
+  max-width: 60%;        /* Breite begrenzen */
+  padding-top: 0.2em;    /* Abstand oben */
+  padding-bottom: 0.2em; /* Abstand unten */
+  margin-left: auto;     /* zentrieren */
+  margin-right: auto;    /* zentrieren */
+
+  padding: 0.5em 1em;
+}
+
+.reveal div.quarto-title-author-name {
+  margin-top: 1.5em;
+  background-color: #f0f0f0aa;
+
+  width: 600px;
+  max-width: 80%;          /* responsive fallback */
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0.5em 1em;
+}

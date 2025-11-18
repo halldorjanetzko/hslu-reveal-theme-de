@@ -6,6 +6,8 @@ contributes:
   formats:
     revealjs:
       themes:
-        - default
-        - hslu-reveal-theme-de
+        - hslu_theme
+  metadata:
+    project:
+      brand: brand.yml
 
