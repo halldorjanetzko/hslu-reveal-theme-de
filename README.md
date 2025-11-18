@@ -1,23 +1,15 @@
 # Hslu-reveal-theme-de Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+A draft extension for a hslu themed presentation.
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/hslu-reveal-theme-de
+quarto add halldorjanetzko/hslu-reveal-theme-de
 ```
 
 This will install the extension under the `_extensions` subdirectory.
 If you're using version control, you will want to check in this directory.
 
-## Using
-
-This extension installs a [brand.yml](https://posit-dev.github.io/brand-yml/) configuration for _your organization name_.
-
-## Example
-
-Here is the source code for a minimal example: [example.qmd](example.qmd).
 
