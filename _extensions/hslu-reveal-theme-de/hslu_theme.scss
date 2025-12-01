@@ -121,6 +121,15 @@ div.reveal-header {
   align-items: center;
 }
 
+.larger {
+  font-size: 120%;
+}
+
+.large {
+  font-size: 110%;
+
+}
+
 .small {
   font-size: 90%;
 
@@ -138,4 +147,14 @@ div.reveal-header {
 
 .center  {
   text-align: center;
+}
+
+.reveal p,
+.reveal li {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+.reveal h2 {
+  margin-bottom: 1em;
 }
