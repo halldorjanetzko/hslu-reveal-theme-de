@@ -185,26 +185,26 @@ div.reveal-header {
 }
 
 .larger {
-  font-size: 120%;
+  font-size: 120% !important;
 }
 
 .large {
-  font-size: 110%;
+  font-size: 110% !important;
 
 }
 
 .small {
-  font-size: 90%;
+  font-size: 90% !important;
 
 }
 
 .smaller {
-  font-size: 80%;
+  font-size: 80% !important;
 
 }
 
 .tiny {
-  font-size: 70%;
+  font-size: 70% !important;
 
 }
 
@@ -230,4 +230,6 @@ div.reveal-header {
   color: $hslu-magenta-color;
 }
 
-
+.reveal .compact p{
+    margin-bottom: 0em !important;
+}
